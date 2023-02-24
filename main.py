@@ -6,8 +6,10 @@ import pandas as pd
 # Abrir os 6 arquivos em Excel
 lista_meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho']
 
-tabela_vendas = pd.read_excel('janeiro.xlsx')
-
+for mes in lista_meses:
+    print(mes)
+    tabela_vendas = pd.read_excel(f'{mes}.xlsx')
+    print(tabela_vendas)
 
 # Para cada arquivo:
 #   Verificar se algum valor na coluna de vendas é maior que 55.000
