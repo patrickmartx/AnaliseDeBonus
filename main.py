@@ -1,6 +1,8 @@
+#Bibliotecas instaladas: pandas, openpyxl, twilio
 # Passo a passo de solução
 
 # Abrir os 6 arquivos em Excel
+
 
 # Para cada arquivo:
 #   Verificar se algum valor na coluna de vendas é maior que 55.000
